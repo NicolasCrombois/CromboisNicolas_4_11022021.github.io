@@ -740,12 +740,12 @@ h4 {
     margin-top: 24px;
 }
 
-.darkgray {
-    color: #1F1F1F!important;
-}
 
 .white {
     color: #FFF!important;
+}
+.darkgray {
+    color: #2C2C2C!important;
 }
 
 .portfolio-thumb {
@@ -829,16 +829,22 @@ h4 {
 }
 
 .bg-banniere {
-	background-color: #646061;
+	background-color: #565256;
     background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+footer .col-sm-6{
+	color: #1F1F1F;
+}
 footer ul {
 	list-style-type: none;
 	padding: 0;
+}
+footer ul a {
+	color: #1A1A1A!important;
 }
 
 @media (max-width: 1024px) {
