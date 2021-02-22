@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(44, 44, 44, .85);
 }
 
 .d-bloc .panel button:hover,
@@ -481,7 +481,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 40px!important;
 }
 
 .icon-lg {
@@ -682,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -836,8 +836,30 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+footer {
+    font-size: 16px;
+}
+footer .social{
+    margin-top: 35px;
+    color: #2C2C2C!important;
+}
+footer .social a {
+    padding: 28px 0 5px 0;
+}
+footer .external-link{
+    max-width: 67%;
+    margin: auto;
+    margin-top: 40px;
+}
 footer .col-sm-6{
-	color: #1F1F1F;
+    font-size: 16px;
+	color: #2C2C2C;
+}
+footer ul li{
+    margin: 16px 0;
+}
+footer .external-link a {
+    padding: 16px 0;
 }
 footer ul {
 	list-style-type: none;
