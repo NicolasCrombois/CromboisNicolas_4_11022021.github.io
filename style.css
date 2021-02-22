@@ -297,7 +297,7 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: 3px 5px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -308,8 +308,6 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
-    height: 40px;
-    width: 214.44px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -528,6 +526,7 @@ button {
 
 .scrollToTop span {
     margin-top: 6px;
+    color: #FFF;
 }
 
 .showScrollTop {
@@ -793,9 +792,15 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
+.bgc-dark-tangerine {
+    background-color: #B6572B;
+}
 
 .tc-white {
     color: #FDC6AD!important;
+}
+.white{
+    color: #FFF;
 }
 
 .btn-atomic-tangerine {
@@ -915,7 +920,7 @@ footer ul a {
 
 @media (max-width: 991px) {
     .container {
-        width: 100%;
+        width: 90%;
     }
     .b-parallax {
         background-attachment: scroll;
