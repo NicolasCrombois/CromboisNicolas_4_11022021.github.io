@@ -404,9 +404,9 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
-    #bloc-4-portfolio img {
-    	margin: auto;
-    }
+}
+#bloc-4-portfolio .portfolio-thumb {
+	margin: auto;
 }
 
 .nav > li > .dropdown a {
