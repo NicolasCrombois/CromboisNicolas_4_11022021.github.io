@@ -922,8 +922,12 @@ footer ul a {
 }
 
 @media (max-width: 991px) {
-    .container {
+    .navbar-header{
         width: 90%;
+        margin: auto;
+    }
+    .navbar-nav li a{
+        padding-left: 35px
     }
     .b-parallax {
         background-attachment: scroll;
